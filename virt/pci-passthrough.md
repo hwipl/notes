@@ -17,6 +17,18 @@ Permanent/early boot configuration:
   * use devices with pci id using `"-device vfio-pci,host=01:00.0"` in vm
 
 
+IOMMU groups listing script:
+```bash
+#!/bin/bash
+shopt -s nullglob
+for g in /sys/kernel/iommu_groups/*; do
+    echo "IOMMU Group ${g##*/}:"
+    for d in $g/devices/*; do
+        echo -e "\t$(lspci -nns ${d##*/})"
+    done;
+done;
+```
+
 Links:
 * <https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF>
 * <https://lettieri.iet.unipi.it/virtualization/2017/vn09.pdf>
