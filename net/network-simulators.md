@@ -9,3 +9,13 @@ Network simulators/emulators:
 Other Links:
 * <http://www.brianlinkletter.com/open-source-network-simulators/>
 * <https://dl.gi.de/bitstream/handle/20.500.12116/16582/DFN-Forum-Proceedings-009.pdf>
+
+## gns3
+
+Arch Linux installation:
+
+```console
+$ pipx install gns3-server
+$ pipx install gns3-gui
+$ pipx inject gns3-gui pyqt5
+```
