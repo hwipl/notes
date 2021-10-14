@@ -11,3 +11,16 @@ SFC cable compatibility:
 Mellanox QSFP to SFP Adapter:
 * https://community.mellanox.com/s/article/all-about-qsa-adapter
 * https://www.mellanox.com/pdf/prod_cables/QSA.pdf
+
+Plugging RJ45 into QSFP28 port discussion (with Mellanox SN2700 switch):
+* https://serverfault.com/questions/956983/how-can-i-connect-an-rj45-plug-into-a-qsfp28-port
+* proposes Mikrotik CRS305-1G-4S+IN
+
+Mikrotik CRS305-1G-4S+IN 4 port SFP+ 10GbE switch (+ 1 RJ45 management):
+* https://mikrotik.com/product/crs305_1g_4s_in
+
+10 Mbps, 100 Mbps, 1 Gbps, 2.5 Gbps, 5 Gbps, 10 Gbps SFP+ to RJ45 module
+compatible with Mikrotik CRS305-1G-4S+IN switch:
+* https://mikrotik.com/product/s_rj10
+* Interface compatibility:
+  https://wiki.mikrotik.com/wiki/MikroTik_wired_interface_compatibility
