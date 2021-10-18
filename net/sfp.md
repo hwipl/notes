@@ -26,7 +26,8 @@ compatible with Mikrotik CRS305-1G-4S+IN switch:
   https://wiki.mikrotik.com/wiki/MikroTik_wired_interface_compatibility
 
 Mellanox cable installation documentation including breakout cables:
-* https://docs.mellanox.com/display/sn2000pub/Cable+Installation
-* https://docs.mellanox.com/display/sn3000um/Cable+Installation
+* SN2000 switches: https://docs.mellanox.com/display/sn2000pub/Cable+Installation
+* SN3000 switches: https://docs.mellanox.com/display/sn3000um/Cable+Installation
+* SN4000 switches: https://docs.mellanox.com/display/SS/Cable+Installation
 * Note splitting/blocking requirements: depending on switch model, adjacent
   ports could be blocked
