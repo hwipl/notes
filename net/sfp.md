@@ -31,3 +31,10 @@ Mellanox cable installation documentation including breakout cables:
 * SN4000 switches: https://docs.mellanox.com/display/SS/Cable+Installation
 * Note splitting/blocking requirements: depending on switch model, adjacent
   ports could be blocked
+
+Ethernet standards over 100 Gigabit including supported cable lengths:
+* https://en.wikipedia.org/wiki/Terabit_Ethernet
+
+Mellanox Cable and Connector Definitions including transceiver reach/supported
+cable lengths:
+* https://docs.mellanox.com/m/view-rendered-page.action?abstractPageId=25137069
