@@ -9,3 +9,10 @@ NVIDIA Container Toolkit (nvidia-docker):
 
 NVIDIA device plugin for Kubernetes (k8s-device-plugin):
 * https://github.com/NVIDIA/k8s-device-plugin
+
+GPU scheduling/sharing:
+* https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+* https://github.com/nano-gpu
+* https://github.com/NTHU-LSALAB/KubeShare
+* https://github.com/AliyunContainerService/gpushare-scheduler-extender
+* https://gist.github.com/lichinka/42538308683e61f9b47c
