@@ -23,6 +23,11 @@ wpa supplicant:
 ubuntu, tpm simulator:
 * https://francislampayan.medium.com/how-to-setup-tpm-simulator-in-ubuntu-20-04-25ec673b88dc
 
+tpm2 device emulation with qemu:
+* https://tpm2-software.github.io/2020/10/19/TPM2-Device-Emulation-With-QEMU.html
+* https://www.smoothnet.org/qemu-tpm/
+* https://qemu-project.gitlab.io/qemu/specs/tpm.html
+
 ssh with tpm2-pkcs11 on debian:
 * https://donjon.ledger.com/ssh-with-tpm/
 
