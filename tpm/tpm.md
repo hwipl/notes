@@ -28,6 +28,11 @@ tpm2 device emulation with qemu:
 * https://www.smoothnet.org/qemu-tpm/
 * https://qemu-project.gitlab.io/qemu/specs/tpm.html
 
+software tpm2:
+* https://github.com/stefanberger/swtpm
+* https://github.com/stefanberger/swtpm/wiki
+* https://launchpad.net/~stefanberger/+archive/ubuntu/swtpm-focal
+
 ssh with tpm2-pkcs11 on debian:
 * https://donjon.ledger.com/ssh-with-tpm/
 
