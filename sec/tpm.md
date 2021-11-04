@@ -33,8 +33,9 @@ software tpm2:
 * https://github.com/stefanberger/swtpm/wiki
 * https://launchpad.net/~stefanberger/+archive/ubuntu/swtpm-focal
 
-ssh with tpm2-pkcs11 on debian:
+ssh with tpm2-pkcs11 on debian and slackware/from source:
 * https://donjon.ledger.com/ssh-with-tpm/
+* https://incenp.org/notes/2020/tpm-based-ssh-key.html
 
 ssh, gnupg, openvpn on archlinux:
 * https://www.evolware.org/?p=597
