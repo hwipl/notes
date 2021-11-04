@@ -75,3 +75,6 @@ opencryptoki:
 * https://github.com/opencryptoki/opencryptoki
 * https://github.com/opencryptoki/opencryptoki/blob/master/doc/opencryptoki-howto.md
 * https://github.com/opencryptoki/openssl-ibmpkcs11
+
+strongSwan ipsec and tpm:
+* https://wiki.strongswan.org/projects/strongswan/wiki/TPMPlugin
