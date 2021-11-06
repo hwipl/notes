@@ -55,6 +55,7 @@ tpm info, docs:
 openconnect:
 * https://www.infradead.org/openconnect/pkcs11.html
 * http://lists.infradead.org/pipermail/openconnect-devel/2017-September/004511.html
+* http://www.infradead.org/openconnect/tpm.html
 
 pkcs11 info, uris:
 * https://en.wikipedia.org/wiki/PKCS_11
@@ -78,3 +79,18 @@ opencryptoki:
 
 strongSwan ipsec and tpm:
 * https://wiki.strongswan.org/projects/strongswan/wiki/TPMPlugin
+
+tpm2 talks:
+* https://www.barbhack.fr/slides/2021/barbhack2021_tpm_auth.pdf
+* https://www.sstic.org/media/SSTIC2021/SSTIC-actes/protecting_ssh_authentication_with_tpm_20/SSTIC2021-Slides-protecting_ssh_authentication_with_tpm_20-iooss.pdf
+* https://archive.fosdem.org/2019/schedule/event/tpm2/attachments/slides/3111/export/events/attachments/tpm2/slides/3111/FOSDEM_TPM_TSS2_0.pdf
+
+man tpm2_import:
+* https://www.mankier.com/1/tpm2_import
+
+p11tool/pkcs11-tool rsa key import issue, importing rsa keys should be
+rejected:
+* https://github.com/tpm2-software/tpm2-pkcs11/pull/698
+
+tpm2-pkcs11 guide:
+* https://azure.github.io/iot-identity-service/pkcs11/tpm2-pkcs11.html
