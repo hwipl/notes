@@ -27,3 +27,9 @@ Kubernetes Cluster API
 
 Kickstart:
 * https://en.wikipedia.org/wiki/Kickstart_(Linux)
+
+PXE, iPXE + chainloading:
+https://ipxe.org/
+https://ipxe.org/howto/chainloading
+https://en.wikipedia.org/wiki/Preboot_Execution_Environment
+https://en.wikipedia.org/wiki/IPXE
