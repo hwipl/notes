@@ -94,3 +94,7 @@ rejected:
 
 tpm2-pkcs11 guide:
 * https://azure.github.io/iot-identity-service/pkcs11/tpm2-pkcs11.html
+
+safeboot:
+* https://github.com/osresearch/safeboot
+* https://safeboot.dev/
