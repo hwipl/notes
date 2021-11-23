@@ -98,3 +98,8 @@ tpm2-pkcs11 guide:
 safeboot:
 * https://github.com/osresearch/safeboot
 * https://safeboot.dev/
+
+GSoC libsecret TPM2 support:
+* https://gitlab.gnome.org/Teams/Engagement/gsoc-2021/-/issues/13
+* https://dnuka.github.io/gsoc21-final-report.html
+* https://gitlab.gnome.org/GNOME/libsecret
