@@ -103,3 +103,12 @@ GSoC libsecret TPM2 support:
 * https://gitlab.gnome.org/Teams/Engagement/gsoc-2021/-/issues/13
 * https://dnuka.github.io/gsoc21-final-report.html
 * https://gitlab.gnome.org/GNOME/libsecret
+
+firefox nss api and pkcs11 certificates with tpm
+* https://blog.hansenpartnership.com/using-tpm-based-client-certificates-on-firefox-and-apache/
+* https://dev-tech-crypto.mozilla.narkive.com/VVtYKrW5/pkcs-11-module-for-tpm-availiable
+* https://github.com/tpm2-software/tpm2-pkcs11/issues/145
+* https://github.com/tpm2-software/tpm2-pkcs11/issues/232
+* https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Specs
+* https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/FAQ
+* https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/NSS_API_Guidelines
