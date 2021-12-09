@@ -7,6 +7,10 @@
 * https://www.cisco.com/c/en/us/support/docs/security/asa-5500-x-series-firewalls/212972-anyconnect-vpn-client-troubleshooting-gu.html
 * https://www.cisco.com/c/en/us/support/docs/network-management/remote-access/216495-configure-anyconnect-modules-for-remote.html
 
+Trusted network detection and always on:
+* https://directaccess.richardhicks.com/tag/trusted-network-detection/
+* https://directaccess.richardhicks.com/2020/03/24/always-on-vpn-trusted-network-detection/
+
 Alternatives:
 
 OpenConnect:
