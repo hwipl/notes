@@ -20,5 +20,12 @@ marking packets
 * https://wiki.nftables.org/wiki-nftables/index.php/Setting_packet_metainformation
 * https://wiki.nftables.org/wiki-nftables/index.php/Matching_packet_metainformation
 
+named sets
+* https://wiki.nftables.org/wiki-nftables/index.php/Sets
+* example:
+  * `nft add table ip filter`
+  * `nft add set ip filter blackhole {type ipv4_addr\; flags timeout\;}`
+  * `nft add element ip filter blackhole { 192.168.3.4 timeout 60s }`
+
 example conf:
 * /etc/nftables.conf
