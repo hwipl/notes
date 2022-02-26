@@ -22,13 +22,14 @@ runtime the shared libraries from the glibc version used for linking
 ```
 
 * https://stackoverflow.com/questions/2725255/create-statically-linked-binary-that-uses-getaddrinfo
-  * glibc uses libnss to support a number of different providers for address
+  * "glibc uses libnss to support a number of different providers for address
     resolution services. Unfortunately, you cannot statically link libnss, as
-    exactly what providers it loads depends on the local system's configuration.
-  * Meanwhile in version 2.20 there is the --enable-static-nss flag of
-    configure which seems to do exactly this. Note that s tatic linking
+    exactly what providers it loads depends on the local system's
+    configuration."
+  * "Meanwhile in version 2.20 there is the --enable-static-nss flag of
+    configure which seems to do exactly this. Note that static linking
     introduces some disadvantages (see @pixelbeat's answer and the comments
-    made to it).
+    made to it)."
 
 * https://stackoverflow.com/questions/37630274/what-do-these-go-build-flags-mean-netgo-extldflags-lm-lstdc-static
   * answer 1
