@@ -13,3 +13,14 @@ Python module info and description of SecretAgent interaction:
 
 NetworkManager + wpa_supplicant debugging:
 * https://www.programmerall.com/article/1527177960/
+
+Adding connection for all compatible devices (from
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/sec-configuring_ip_networking_with_nmcli#sec-Locking_a_Profile_to_a_Specific_Device_Using_nmcli):
+
+```console
+nmcli connection add type ethernet con-name connection-name ifname "*"
+```
+
+"Note that you have to use the ifname argument even if you do not want to set a
+specific interface. Use the wildcard character * to specify that the profile
+can be used with any compatible device."
