@@ -24,6 +24,22 @@ Adding a configuration with auto-configuration of IP addresses etc:
 $ nmcli connection add type ethernet con-name Default ifname eth0
 ```
 
+### Auto-Connect Priorities
+
+Specifying autoconnect (auto connect is enabled by default) priorities for
+connections:
+
+```
+$ nmcli connection add type ethernet con-name Default ifname eth0 \
+        connection.autoconnect-priority -999
+```
+
+https://developer-old.gnome.org/NetworkManager/stable/settings-connection.html:
+
+"The autoconnect priority. If the connection is set to autoconnect, connections
+with higher priority will be preferred. Defaults to 0. The higher number means
+higher priority."
+
 ### Connection for all Network Interfaces
 
 Adding connection for all compatible devices (from
