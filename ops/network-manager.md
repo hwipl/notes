@@ -14,6 +14,18 @@ Python module info and description of SecretAgent interaction:
 NetworkManager + wpa_supplicant debugging:
 * https://www.programmerall.com/article/1527177960/
 
+## Examples
+
+### Auto-Configuration Connection
+
+Adding a configuration with auto-configuration of IP addresses etc:
+
+```
+$ nmcli connection add type ethernet con-name Default ifname eth0
+```
+
+### Connection for all Network Interfaces
+
 Adding connection for all compatible devices (from
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/sec-configuring_ip_networking_with_nmcli#sec-Locking_a_Profile_to_a_Specific_Device_Using_nmcli):
 
