@@ -1,6 +1,6 @@
 # ISC DHCP Server
 
-# Static Routes
+## Static Routes
 
 * [RFC 3442](https://www.rfc-editor.org/rfc/rfc3442)
 * Sources:
