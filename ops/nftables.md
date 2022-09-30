@@ -29,3 +29,16 @@ named sets
 
 example conf:
 * /etc/nftables.conf
+
+tracing/monitoring:
+* https://wiki.nftables.org/wiki-nftables/index.php/Ruleset_debug/tracing
+* https://unix.stackexchange.com/questions/614413/how-to-properly-log-and-view-nftables-activity
+
+```console
+$ # use "meta nftrace set 1" to enable tracing of a packet somewhere in a rule
+$ # in an existing chain or, e.g., a new chain:
+$ nft add chain filter trace_chain { type filter hook prerouting priority -301\; }
+$ nft add rule filter trace_chain meta nftrace set 1
+$ # or use more specific packet matching, e.g.: ip protocol tcp meta nftrace set 1
+$ nft monitor trace
+```
