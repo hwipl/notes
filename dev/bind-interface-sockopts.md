@@ -11,7 +11,7 @@ Multicast interface socket options:
 Unicast interface socket options:
 - `IP_UNICAST_IF`
 - `IPV6_UNICAST_IF`
-- IPv4 fixed in linux 5.19+, IPv6 maybe in 6.2+?
+- IPv4 fixed in linux 5.19+, IPv6 fixed in linux 6.2+
   - https://lore.kernel.org/all/20220829111554.GA1771@debian/T/
   - https://lore.kernel.org/netdev/7b510e87-3a34-d9c8-a9e9-65c1d93ad645@kernel.org/T/
 
