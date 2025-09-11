@@ -40,4 +40,38 @@ $ EDITOR=vim crontab -e
 ## Systemd Timer
 
 Only one instance of getmail is running at the same time with systemd timer.
-TODO: add
+
+Systemd service in file `~/.config/systemd/user/getmail@.service`:
+
+```
+[Unit]
+Description=Run getmail with specific config file
+
+[Service]
+ExecStart=$GETMAIL -q -g ~/.getmail/ -r %i
+
+[Install]
+WantedBy=default.target
+```
+
+Systemd timer in file `~/.config/systemd/user/getmail@.timer`:
+
+```
+[Unit]
+Description=Run getmail every 5 minutes
+
+[Timer]
+OnActiveSec=5min
+OnUnitActiveSec=5min
+
+[Install]
+WantedBy=timers.target
+```
+
+```console
+$ # enable and start timer
+$ systemctl --user enable getmail@getmailrc.timer
+$ systemctl --user start getmail@getmailrc.timer
+$ # enable linger for user
+$ loginctl enable-linger $USER
+```
