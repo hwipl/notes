@@ -48,7 +48,7 @@ Systemd service in file `~/.config/systemd/user/getmail@.service`:
 Description=Run getmail with specific config file
 
 [Service]
-ExecStart=$GETMAIL -q -g ~/.getmail/ -r %i
+ExecStart=/usr/bin/getmail -q -g ~/.getmail/ -r %i
 
 [Install]
 WantedBy=default.target
